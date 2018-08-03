@@ -10,6 +10,7 @@ const styles = {
     display: 'flex',
     flexDirection: 'row',
     justifyContent: 'space-between',
+    zIndex: 10,
   },
 
   rightSideContent: {

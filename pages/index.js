@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Header from '../components/Header'
 import { JssProvider, SheetsRegistry } from 'react-jss'
+import ProgressiveImage from 'react-progressive-image'
 
 export default () => {
   return (
@@ -16,7 +17,15 @@ export default () => {
       </Head>
 
       <Header />
-      <img style={{ width: '100%' }} src="/static/red-house-landscape.jpg" alt="my image" />
+      <ProgressiveImage src="static/red-house-landscape.jpg" placeholder="static/red-house-landscape-loading.jpg">
+        {(src, loading) => (
+          <img
+            style={{ transition: 'filter 1s', width: '100%', filter: loading ? 'blur(5px)' : 'none' }}
+            src={src}
+            alt="my image"
+          />
+        )}
+      </ProgressiveImage>
     </div>
   )
 }
