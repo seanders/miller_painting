@@ -67,20 +67,30 @@ module.exports =
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 9);
 /******/ })
 /************************************************************************/
-/******/ ({
+/******/ ([
+/* 0 */
+/***/ (function(module, exports) {
 
-/***/ "./components/Header.js":
+module.exports = require("react");
+
+/***/ }),
+/* 1 */
+/***/ (function(module, exports) {
+
+module.exports = require("react-jss");
+
+/***/ }),
+/* 2 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_jss__ = __webpack_require__("react-jss");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_jss__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_jss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react_jss__);
-var _jsxFileName = "/Users/sean/workspace/miller_painting/components/Header.js";
 
 
 var styles = {
@@ -100,203 +110,147 @@ var styles = {
     justifyContent: 'flex-end',
     flexBasis: '40%'
   },
+  leftSideContent: {
+    display: 'flex',
+    justifyContent: 'flex-end'
+  },
   headerText: {
     margin: 0
   },
   headerAnchor: {
+    textDecoration: 'none',
+    color: 'white',
     padding: '16px',
     '&:hover': {
       cursor: 'pointer',
       backgroundColor: 'rgba(200, 200, 100, 0.64)',
       transition: 'background-color 0.3s'
     }
+  },
+  phoneNumber: {
+    display: 'flex',
+    alignItems: 'center'
   }
 };
 
 var Header = function Header(_ref) {
   var classes = _ref.classes;
   return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: classes.headerContainer,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37
-    }
+    className: classes.headerContainer
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+    className: classes.leftSideContent
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-    className: classes.headerAnchor,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 38
-    }
+    href: "/",
+    className: classes.headerAnchor
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h2", {
-    className: classes.headerText,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 39
-    }
-  }, "Miller Painting")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: classes.rightSideContent,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 41
-    }
+    className: classes.headerText
+  }, "Miller Painting")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+    className: classes.phoneNumber
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h3", null, "760-668-7808"))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+    className: classes.rightSideContent
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-    className: classes.headerAnchor,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 42
-    }
+    href: "/services",
+    className: classes.headerAnchor
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h2", {
-    className: classes.headerText,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 43
-    }
-  }, "Contact")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-    className: classes.headerAnchor,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 46
-    }
+    className: classes.headerText
+  }, "Services")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+    href: "/about",
+    className: classes.headerAnchor
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h2", {
-    className: classes.aboutUs,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 47
-    }
+    className: classes.aboutUs
   }, "About Us"))));
 };
 
 /* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_1_react_jss___default()(styles)(Header));
 
 /***/ }),
+/* 3 */,
+/* 4 */,
+/* 5 */,
+/* 6 */,
+/* 7 */,
+/* 8 */,
+/* 9 */
+/***/ (function(module, exports, __webpack_require__) {
 
-/***/ "./pages/index.js":
+module.exports = __webpack_require__(10);
+
+
+/***/ }),
+/* 10 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_styled_jsx_style__ = __webpack_require__("styled-jsx/style");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_styled_jsx_style___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_styled_jsx_style__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react__ = __webpack_require__("react");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_head__ = __webpack_require__("next/head");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_head___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_next_head__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_Header__ = __webpack_require__("./components/Header.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_react_jss__ = __webpack_require__("react-jss");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_react_jss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_react_jss__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_react_progressive_image__ = __webpack_require__("react-progressive-image");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_head__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_head___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_next_head__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_Header__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_react_jss__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_react_jss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_react_jss__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_jss__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_jss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_jss__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_react_progressive_image__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_react_progressive_image___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_react_progressive_image__);
-var _jsxFileName = "/Users/sean/workspace/miller_painting/pages/index.js";
 
 
 
 
 
 
-/* harmony default export */ __webpack_exports__["default"] = (function () {
-  return __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
+var styles = {
+  blurb: {
+    position: 'absolute',
+    top: '20%',
+    left: '10%',
+    color: 'white'
+  }
+};
+
+var IndexPage = function IndexPage(_ref) {
+  var classes = _ref.classes;
+  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
     style: {
       position: 'relative'
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
     }
-  }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_next_head___default.a, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    }
-  }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("title", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10
-    },
-    className: "jsx-523879908"
-  }, "Miller Painting - Palm Springs"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("link", {
-    href: "https://fonts.googleapis.com/css?family=Merriweather",
-    rel: "stylesheet",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11
-    },
-    className: "jsx-523879908"
-  }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_0_styled_jsx_style___default.a, {
-    styleId: "523879908",
-    css: "body{margin:0;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBhZ2VzL2luZGV4LmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQVcyQixBQUdzQixTQUNYIiwiZmlsZSI6InBhZ2VzL2luZGV4LmpzIiwic291cmNlUm9vdCI6Ii9Vc2Vycy9zZWFuL3dvcmtzcGFjZS9taWxsZXJfcGFpbnRpbmciLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgSGVhZCBmcm9tICduZXh0L2hlYWQnXG5pbXBvcnQgSGVhZGVyIGZyb20gJy4uL2NvbXBvbmVudHMvSGVhZGVyJ1xuaW1wb3J0IHsgSnNzUHJvdmlkZXIsIFNoZWV0c1JlZ2lzdHJ5IH0gZnJvbSAncmVhY3QtanNzJ1xuaW1wb3J0IFByb2dyZXNzaXZlSW1hZ2UgZnJvbSAncmVhY3QtcHJvZ3Jlc3NpdmUtaW1hZ2UnXG5cbmV4cG9ydCBkZWZhdWx0ICgpID0+IHtcbiAgcmV0dXJuIChcbiAgICA8ZGl2IHN0eWxlPXt7IHBvc2l0aW9uOiAncmVsYXRpdmUnIH19PlxuICAgICAgPEhlYWQ+XG4gICAgICAgIDx0aXRsZT5NaWxsZXIgUGFpbnRpbmcgLSBQYWxtIFNwcmluZ3M8L3RpdGxlPlxuICAgICAgICA8bGluayBocmVmPVwiaHR0cHM6Ly9mb250cy5nb29nbGVhcGlzLmNvbS9jc3M/ZmFtaWx5PU1lcnJpd2VhdGhlclwiIHJlbD1cInN0eWxlc2hlZXRcIiAvPlxuICAgICAgICA8c3R5bGUgZ2xvYmFsIGpzeD57YFxuICAgICAgICAgIGJvZHkge1xuICAgICAgICAgICAgbWFyZ2luOiAwO1xuICAgICAgICAgIH1cbiAgICAgICAgYH08L3N0eWxlPlxuICAgICAgPC9IZWFkPlxuXG4gICAgICA8SGVhZGVyIC8+XG4gICAgICA8UHJvZ3Jlc3NpdmVJbWFnZSBzcmM9XCJzdGF0aWMvcmVkLWhvdXNlLWxhbmRzY2FwZS5qcGdcIiBwbGFjZWhvbGRlcj1cInN0YXRpYy9yZWQtaG91c2UtbGFuZHNjYXBlLWxvYWRpbmcuanBnXCI+XG4gICAgICAgIHsoc3JjLCBsb2FkaW5nKSA9PiAoXG4gICAgICAgICAgPGltZ1xuICAgICAgICAgICAgc3R5bGU9e3sgdHJhbnNpdGlvbjogJ2ZpbHRlciAxcycsIHdpZHRoOiAnMTAwJScsIGZpbHRlcjogbG9hZGluZyA/ICdibHVyKDVweCknIDogJ25vbmUnIH19XG4gICAgICAgICAgICBzcmM9e3NyY31cbiAgICAgICAgICAgIGFsdD1cIm15IGltYWdlXCJcbiAgICAgICAgICAvPlxuICAgICAgICApfVxuICAgICAgPC9Qcm9ncmVzc2l2ZUltYWdlPlxuICAgIDwvZGl2PlxuICApXG59XG4iXX0= */\n/*@ sourceURL=pages/index.js */"
-  })), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__components_Header__["a" /* default */], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19
-    }
-  }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5_react_progressive_image___default.a, {
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_head___default.a, null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("title", null, "Miller Painting - Palm Springs")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__components_Header__["a" /* default */], null), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5_react_progressive_image___default.a, {
     src: "static/red-house-landscape.jpg",
-    placeholder: "static/red-house-landscape-loading.jpg",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20
-    }
+    placeholder: "static/red-house-landscape-loading.jpg"
   }, function (src, loading) {
-    return __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("img", {
+    return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
       style: {
         transition: 'filter 1s',
         width: '100%',
         filter: loading ? 'blur(5px)' : 'none'
       },
       src: src,
-      alt: "my image",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 22
-      }
+      alt: "my image"
     });
-  }));
-});
+  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+    className: classes.blurb
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h3", null, "Painting, sanding, and wallpaper services for the Coachella Valley")));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (__WEBPACK_IMPORTED_MODULE_3_react_jss___default()(styles)(IndexPage));
 
 /***/ }),
-
-/***/ 3:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__("./pages/index.js");
-
-
-/***/ }),
-
-/***/ "next/head":
+/* 11 */
 /***/ (function(module, exports) {
 
 module.exports = require("next/head");
 
 /***/ }),
-
-/***/ "react":
+/* 12 */
 /***/ (function(module, exports) {
 
-module.exports = require("react");
+module.exports = require("jss");
 
 /***/ }),
-
-/***/ "react-jss":
-/***/ (function(module, exports) {
-
-module.exports = require("react-jss");
-
-/***/ }),
-
-/***/ "react-progressive-image":
+/* 13 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-progressive-image");
 
-/***/ }),
-
-/***/ "styled-jsx/style":
-/***/ (function(module, exports) {
-
-module.exports = require("styled-jsx/style");
-
 /***/ })
-
-/******/ });
-//# sourceMappingURL=index.js.map
+/******/ ]);

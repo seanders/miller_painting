@@ -7896,11 +7896,18 @@ function (_Document) {
           fileName: _jsxFileName,
           lineNumber: 26
         }
-      }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("style", {
-        type: "text/css",
+      }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("link", {
+        href: "https://fonts.googleapis.com/css?family=Merriweather",
+        rel: "stylesheet",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 27
+        }
+      }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("style", {
+        type: "text/css",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 28
         }
       }, "\n              body * {\n                margin: 0;\n                font-family: Merriweather, serif;\n                margin: 0px;\n                box-sizing: border-box;\n              }\n\n              body {\n                margin: 0;\n              }\n            "), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("style", {
         "data-jss": true,
@@ -7909,23 +7916,23 @@ function (_Document) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 41
+          lineNumber: 42
         }
       })), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("body", {
         className: "custom_class",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 43
+          lineNumber: 44
         }
       }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_next_document__["Main"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 44
+          lineNumber: 45
         }
       }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_next_document__["NextScript"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 45
+          lineNumber: 46
         }
       })));
     }

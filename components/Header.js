@@ -19,11 +19,18 @@ const styles = {
     flexBasis: '40%',
   },
 
+  leftSideContent: {
+    display: 'flex',
+    justifyContent: 'flex-end',
+  },
+
   headerText: {
     margin: 0,
   },
 
   headerAnchor: {
+    textDecoration: 'none',
+    color: 'white',
     padding: '16px',
     '&:hover': {
       cursor: 'pointer',
@@ -31,19 +38,29 @@ const styles = {
       transition: 'background-color 0.3s',
     },
   },
+
+  phoneNumber: {
+    display: 'flex',
+    alignItems: 'center',
+  },
 }
 
 const Header = ({ classes }) => (
   <div className={classes.headerContainer}>
-    <a className={classes.headerAnchor}>
-      <h2 className={classes.headerText}>Miller Painting</h2>
-    </a>
+    <div className={classes.leftSideContent}>
+      <a href="/" className={classes.headerAnchor}>
+        <h2 className={classes.headerText}>Miller Painting</h2>
+      </a>
+      <a className={classes.phoneNumber}>
+        <h3>760-668-7808</h3>
+      </a>
+    </div>
     <div className={classes.rightSideContent}>
-      <a className={classes.headerAnchor}>
-        <h2 className={classes.headerText}>Contact</h2>
+      <a href="/services" className={classes.headerAnchor}>
+        <h2 className={classes.headerText}>Services</h2>
       </a>
 
-      <a className={classes.headerAnchor}>
+      <a href="/about" className={classes.headerAnchor}>
         <h2 className={classes.aboutUs}>About Us</h2>
       </a>
     </div>

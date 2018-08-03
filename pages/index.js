@@ -1,19 +1,22 @@
 import Head from 'next/head'
 import Header from '../components/Header'
-import { JssProvider, SheetsRegistry } from 'react-jss'
+import withStyles from 'react-jss'
+import jss from 'jss'
 import ProgressiveImage from 'react-progressive-image'
 
-export default () => {
+const styles = {
+  blurb: {
+    position: 'absolute',
+    top: '20%',
+    left: '10%',
+    color: 'white',
+  },
+}
+const IndexPage = ({ classes }) => {
   return (
     <div style={{ position: 'relative' }}>
       <Head>
         <title>Miller Painting - Palm Springs</title>
-        <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet" />
-        <style global jsx>{`
-          body {
-            margin: 0;
-          }
-        `}</style>
       </Head>
 
       <Header />
@@ -26,6 +29,12 @@ export default () => {
           />
         )}
       </ProgressiveImage>
+
+      <div className={classes.blurb}>
+        <h3>Painting, sanding, and wallpaper services for the Coachella Valley</h3>
+      </div>
     </div>
   )
 }
+
+export default withStyles(styles)(IndexPage)

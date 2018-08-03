@@ -24,6 +24,7 @@ export default class MyDocument extends Document {
     return (
       <html>
         <Head>
+          <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet" />
           <style type="text/css">
             {`
               body * {
