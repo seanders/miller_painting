@@ -29,13 +29,17 @@ export default class MyDocument extends Document {
             {`
               body * {
                 margin: 0;
-                font-family: Merriweather, serif;
+                font-family: Roboto, sans-serif;
                 margin: 0px;
                 box-sizing: border-box;
               }
 
               body {
                 margin: 0;
+              }
+
+              h1, h2, h3, h4, h5, h6 {
+                font-weight: 400;
               }
             `}
           </style>

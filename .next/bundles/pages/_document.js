@@ -7841,7 +7841,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_react_jss__ = __webpack_require__("./node_modules/react-jss/lib/index.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_react_jss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_react_jss__);
 
-var _jsxFileName = "/Users/sean/workspace/miller_painting/pages/_document.js";
+var _jsxFileName = "/Users/sean.miller/workspace/miller_painting/pages/_document.js";
 
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -7909,30 +7909,30 @@ function (_Document) {
           fileName: _jsxFileName,
           lineNumber: 28
         }
-      }, "\n              body * {\n                margin: 0;\n                font-family: Merriweather, serif;\n                margin: 0px;\n                box-sizing: border-box;\n              }\n\n              body {\n                margin: 0;\n              }\n            "), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("style", {
+      }, "\n              body * {\n                margin: 0;\n                font-family: Roboto, sans-serif;\n                margin: 0px;\n                box-sizing: border-box;\n              }\n\n              body {\n                margin: 0;\n              }\n\n              h1, h2, h3, h4, h5, h6 {\n                font-weight: 400;\n              }\n            "), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("style", {
         "data-jss": true,
         dangerouslySetInnerHTML: {
           __html: this.props.ssrCss
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 42
+          lineNumber: 46
         }
       })), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("body", {
         className: "custom_class",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 44
+          lineNumber: 48
         }
       }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_next_document__["Main"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 45
+          lineNumber: 49
         }
       }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_next_document__["NextScript"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 46
+          lineNumber: 50
         }
       })));
     }

@@ -67,30 +67,23 @@ module.exports =
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 7);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
-/******/ ([
-/* 0 */
-/***/ (function(module, exports) {
+/******/ ({
 
-module.exports = require("react");
-
-/***/ }),
-/* 1 */
-/***/ (function(module, exports) {
-
-module.exports = require("react-jss");
-
-/***/ }),
-/* 2 */
+/***/ "./components/Header.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_jss__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_jss__ = __webpack_require__("react-jss");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_jss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react_jss__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_link__ = __webpack_require__("next/link");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_next_link__);
+var _jsxFileName = "/Users/sean.miller/workspace/miller_painting/components/Header.js";
+
 
 
 var styles = {
@@ -136,55 +129,142 @@ var styles = {
 var Header = function Header(_ref) {
   var classes = _ref.classes;
   return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: classes.headerContainer
+    className: classes.headerContainer,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50
+    }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: classes.leftSideContent
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+    className: classes.leftSideContent,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_next_link___default.a, {
     href: "/",
-    className: classes.headerAnchor
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h2", {
-    className: classes.headerText
-  }, "Miller Painting")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-    className: classes.phoneNumber
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h3", null, "760-668-7808"))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: classes.rightSideContent
+    prefetch: true,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52
+    }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+    className: classes.headerAnchor,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h2", {
+    className: classes.headerText,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54
+    }
+  }, "Miller Painting"))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+    className: classes.phoneNumber,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 57
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h3", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 58
+    }
+  }, "760-668-7808"))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+    className: classes.rightSideContent,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 61
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_next_link___default.a, {
     href: "/services",
-    className: classes.headerAnchor
+    prefetch: true,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 62
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+    className: classes.headerAnchor,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 63
+    }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h2", {
-    className: classes.headerText
-  }, "Services")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+    className: classes.headerText,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 64
+    }
+  }, "Services"))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_next_link___default.a, {
     href: "/about",
-    className: classes.headerAnchor
+    prefetch: true,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 68
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+    className: classes.headerAnchor,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 69
+    }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h2", {
-    className: classes.aboutUs
-  }, "About Us"))));
+    className: classes.aboutUs,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 70
+    }
+  }, "About Us"))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_next_link___default.a, {
+    href: "/contact_us",
+    prefetch: true,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 74
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+    className: classes.headerAnchor,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 75
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h2", {
+    className: classes.aboutUs,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 76
+    }
+  }, "Contact Us")))));
 };
 
 /* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_1_react_jss___default()(styles)(Header));
 
 /***/ }),
-/* 3 */,
-/* 4 */,
-/* 5 */,
-/* 6 */,
-/* 7 */
-/***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(8);
-
-
-/***/ }),
-/* 8 */
+/***/ "./components/PageContainer.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_Header__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react_jss__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__Header__ = __webpack_require__("./components/Header.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react_jss__ = __webpack_require__("react-jss");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react_jss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_react_jss__);
+var _jsxFileName = "/Users/sean.miller/workspace/miller_painting/components/PageContainer.js";
+
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
 
 
 
@@ -194,23 +274,162 @@ var styles = {
     marginTop: 100,
     maxWidth: 900,
     display: 'flex'
-  },
+  }
+};
+
+var PageContainer =
+/*#__PURE__*/
+function (_Component) {
+  _inherits(PageContainer, _Component);
+
+  function PageContainer() {
+    _classCallCheck(this, PageContainer);
+
+    return _possibleConstructorReturn(this, (PageContainer.__proto__ || Object.getPrototypeOf(PageContainer)).apply(this, arguments));
+  }
+
+  _createClass(PageContainer, [{
+    key: "render",
+    value: function render() {
+      var _props = this.props,
+          classes = _props.classes,
+          children = _props.children;
+      return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 19
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__Header__["a" /* default */], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 20
+        }
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+        className: classes.textContainer,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 21
+        }
+      }, children));
+    }
+  }]);
+
+  return PageContainer;
+}(__WEBPACK_IMPORTED_MODULE_0_react__["Component"]);
+
+/* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_2_react_jss___default()(styles)(PageContainer));
+
+/***/ }),
+
+/***/ "./pages/about.js":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_jss__ = __webpack_require__("react-jss");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_jss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react_jss__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_Header__ = __webpack_require__("./components/Header.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_PageContainer__ = __webpack_require__("./components/PageContainer.js");
+var _jsxFileName = "/Users/sean.miller/workspace/miller_painting/pages/about.js";
+
+
+
+
+
+var styles = {
   image: {
     marginRight: 30
+  },
+  paragraph: {
+    marginBottom: 30
   }
 };
 
 var AboutPage = function AboutPage(_ref) {
   var classes = _ref.classes;
-  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__components_Header__["a" /* default */], null), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: classes.textContainer
+  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__components_PageContainer__["a" /* default */], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_0_react__["Fragment"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
     className: classes.image,
-    src: "static/jeffrey_miller_cropped.jpg"
-  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", null, "We are a painting company based out of Palm Springs, California. We provide painting services to residences and businesses throughout the Coachella Valley.")));
+    src: "static/jeffrey_miller_cropped.jpg",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    }
+  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
+    className: classes.paragraph,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21
+    }
+  }, "Miller Painting has been providing Interior and Exterior Custom Painting to Local Desert Residents since 1968 for both Residential and Commercial clients."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
+    className: classes.paragraph,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    }
+  }, "Whether your in need of Interior or Exterior Painting, Custom Repainting, On- Site Color Matching, Acoustic Ceiling Removal, Wall Paper Removal, Stucco Repair, Wall Texturing & Repair, Elastomeric Coatings, Cabinet Refinishing, Pool Decks or an Epoxy Garage Floor help is just a Click Away."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
+    className: classes.paragraph,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    }
+  }, "Miller Painting offers a Free In Home Estimate, 7 Days A Week, not to mention Immediate Same Day Service if needed. References are available upon request."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
+    className: classes.paragraph,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    }
+  }, "Don't wait another minute contact us Today for a FREE In HOME Estimate."))));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (__WEBPACK_IMPORTED_MODULE_2_react_jss___default()(styles)(AboutPage));
+/* harmony default export */ __webpack_exports__["default"] = (__WEBPACK_IMPORTED_MODULE_1_react_jss___default()(styles)(AboutPage));
+
+/***/ }),
+
+/***/ 3:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__("./pages/about.js");
+
+
+/***/ }),
+
+/***/ "next/link":
+/***/ (function(module, exports) {
+
+module.exports = require("next/link");
+
+/***/ }),
+
+/***/ "react":
+/***/ (function(module, exports) {
+
+module.exports = require("react");
+
+/***/ }),
+
+/***/ "react-jss":
+/***/ (function(module, exports) {
+
+module.exports = require("react-jss");
 
 /***/ })
-/******/ ]);
+
+/******/ });
+//# sourceMappingURL=about.js.map

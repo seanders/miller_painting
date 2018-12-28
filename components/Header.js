@@ -1,4 +1,5 @@
 import withStyles from 'react-jss'
+import Link from 'next/link'
 
 const styles = {
   headerContainer: {
@@ -48,21 +49,33 @@ const styles = {
 const Header = ({ classes }) => (
   <div className={classes.headerContainer}>
     <div className={classes.leftSideContent}>
-      <a href="/" className={classes.headerAnchor}>
-        <h2 className={classes.headerText}>Miller Painting</h2>
-      </a>
+      <Link href="/" prefetch>
+        <a className={classes.headerAnchor}>
+          <h2 className={classes.headerText}>Miller Painting</h2>
+        </a>
+      </Link>
       <a className={classes.phoneNumber}>
         <h3>760-668-7808</h3>
       </a>
     </div>
     <div className={classes.rightSideContent}>
-      <a href="/services" className={classes.headerAnchor}>
-        <h2 className={classes.headerText}>Services</h2>
-      </a>
+      <Link href="/services" prefetch>
+        <a className={classes.headerAnchor}>
+          <h2 className={classes.headerText}>Services</h2>
+        </a>
+      </Link>
 
-      <a href="/about" className={classes.headerAnchor}>
-        <h2 className={classes.aboutUs}>About Us</h2>
-      </a>
+      <Link href="/about" prefetch>
+        <a className={classes.headerAnchor}>
+          <h2 className={classes.aboutUs}>About Us</h2>
+        </a>
+      </Link>
+
+      <Link href="/contact_us" prefetch>
+        <a className={classes.headerAnchor}>
+          <h2 className={classes.aboutUs}>Contact Us</h2>
+        </a>
+      </Link>
     </div>
   </div>
 )

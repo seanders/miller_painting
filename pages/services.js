@@ -1,26 +1,22 @@
 import Header from '../components/Header'
 import withStyles from 'react-jss'
+import PageContainer from '../components/PageContainer';
 
-const styles = {
-  textContainer: {
-    margin: 'auto',
-    marginTop: 100,
-    maxWidth: 900,
-    display: 'flex',
-  },
-
-  image: {
-    marginRight: 30,
-  },
-}
+const styles = {}
 
 const ServicesPage = ({ classes }) => (
-  <div>
-    <Header />
-    <div className={classes.textContainer}>
+  <PageContainer>
+    <div>
       <p>We provide a number of services</p>
+      <p>Color Matching</p>
+      <p>Custom Paint</p>
+      <p>Garage Floors</p>
+      <p>Expoxy Floors</p>
+      <p>Pool Decks</p>
+      <p>Exterior Painting</p>
+      <p>Interior Painting</p>
     </div>
-  </div>
+  </PageContainer>
 )
 
 export default withStyles(styles)(ServicesPage)

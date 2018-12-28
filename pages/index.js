@@ -14,7 +14,7 @@ const styles = {
 }
 const IndexPage = ({ classes }) => {
   return (
-    <div style={{ position: 'relative' }}>
+    <div style={{ position: 'relative', height: '100vh' }}>
       <Head>
         <title>Miller Painting - Palm Springs</title>
       </Head>
@@ -23,7 +23,7 @@ const IndexPage = ({ classes }) => {
       <ProgressiveImage src="static/red-house-landscape.jpg" placeholder="static/red-house-landscape-loading.jpg">
         {(src, loading) => (
           <img
-            style={{ transition: 'filter 1s', width: '100%', filter: loading ? 'blur(5px)' : 'none' }}
+            style={{ transition: 'filter 1s', height: '100%', width: '100%', filter: loading ? 'blur(5px)' : 'none' }}
             src={src}
             alt="my image"
           />
